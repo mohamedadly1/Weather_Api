@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="icon" href="https://img.icons8.com/?size=512&id=UjSURd7eHUYL&format=png" type="images/x-icon">
+</head>
+<body>
+   
+   <div class=" alll">
+    <nav id="navv" class="navbar navbar-expand-lg container    bg-opacity-75  " data-bs-theme="dark">
+        <div class="container-fluid">
+           
+           
+           <div class="all mt-4 d-flex">
+             <div class="">  <img class="me-3 mt-2" src="./images/logo (2).png" alt=""></div> 
+<div class="">
+<a href=""><h3> Weather </h3></a>
+<p class="text-white">tagline goes here</p>
+
+
+           </div>
+        </div>
+         
+       
+                
+     
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item p-2  pe-5">
+                        <a id="home" class="nav-link active " aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item p-2  pe-5">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item p-2  pe-5" >
+                        <a class="nav-link" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item p-2 pe-5">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                   
+                   
+
+                </ul>
+
+            </div>
+        </div>
+   
+    </nav> 
+</div>
+
+
+
+
+
+<div class="containe   ">
+  <div class="container con">
+<div class="row">
+    <div class="col-md-8 w-100 ">
+        <div class="d-flex">
+            <input class="" type="text"  id="inputsearch" placeholder="Find your Location"  >
+           <div id="btn"> <button id="btnn">Find</button></div>
+         </div> 
+    </div>
+</div>
+</div>
+
+  </div>
+</div>
+
+<div class="container-fluid fluid   ">
+<div class="container">
+    <div class="row">
+        <div id="card1" class="col-md-4   ">
+           
+<div class="forcast-header d-flex justify-content-between py-2 ps-3 pe-3  w-100">
+
+
+<div id="dayname" class="dayname text-white ps-0"><h6 class=" text-white"></h6></div>
+<div id="daynum" class="daynum monthname text-white  "><h6 class="text-white" ></h6></div>
+</div>
+
+
+ <div id="nametown" class="nametown  pt-3 fs-3 ps-3 "></div> 
+ <div id="temp" class="temp text-white ps-3" ></div>
+<img id="con" src="" alt="">
+<div id="text" class="text pt-4 ps-3"></div>
+
+<div id="nametown" class="footer d-flex pt-4 fs-5">
+<div class="d-flex ps-4 pb-5">
+    <div class=""><i class="fa-solid fa-umbrella"></i></div>
+    <div class="">20%</div>
+</div>
+
+
+
+
+
+
+<div class="d-flex ps-4">
+    <div class=""><i class="fa-solid fa-wind"></i></div>
+    <div class="">18km</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="d-flex ps-4">
+    <div class=""><i class="fa-solid fa-compass"></i></div>
+    <div class="ps-1">East</div>
+</div>
+
+
+
+
+
+</div>
+
+        </div>
+
+
+
+
+
+        <div   id="card2" class="col-md-4 pb-3">
+            <div class="forcast-header d-flex justify-content-center align-items-center py-2 ps-3 pe-3  w-100">
+
+
+                <div id="day2" class="dayname2 text-white ps-0"><h6 class=" text-white"></h6></div>
+                
+                </div>
+               <div class="d-flex justify-content-center align-items-center pt-5"> <img src="" id="cond2" class=""></div>
+             <div class="text-center">  <div id="max" class="max text-white pt-3 fs-2"></div>
+               <div id="min" class="min  pt-1 "></div></div>
+                <div id="day2text" class="day2text text-center pt-3"></div>
+        </div>
+
+
+
+
+
+
+        <div  id="card3" class="col-md-4 text-white pb-3">
+            <div class="forcast-header d-flex justify-content-center align-items-center py-2 ps-3 pe-3  w-100">
+                <div id="day33" class="dayname2 text-white ps-0"><h6 class=" text-white"></h6></div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center pt-5"> <img src="" id="cond3" class=""></div>
+        <div class="text-center">  <div id="max3" class="max text-white pt-3 fs-2"></div>
+          <div id="min3" class="min  pt-1 "></div></div>
+           <div id="day3text" class="day2text text-center pt-3"></div>
+    </div>
+</div>
+</div>
+
+
+<footer class="py-5"> 
+    <div class="container-fluid">
+        <div class="row">
+<div class="col-md-8 ">
+    <div class="d-flex">
+        <input class="" type="text"  id="inputsearc" placeholder="Find your Location"  >
+       <div id="btn"> <button id="btnn">Find</button></div>
+     </div> 
+</div>
+<div class="col-md-4 d-flex pt-4">
+<div class="bord1 bord me-2  d-flex align-items-center  justify-content-center">
+    <i class="fa-brands fa-facebook-f fs-5 "></i>
+</div>
+<div class="bord2 bord me-2 d-flex align-items-center  justify-content-center">
+    <i class="fa-brands fa-twitter fs-5"></i>
+</div>
+<div class="bord3 bord me-2 d-flex align-items-center  justify-content-center">
+    <i class="fa-brands fa-google-plus-g fs-5"></i>
+</div>
+<div class="bord4 bord me-2 d-flex align-items-center  justify-content-center">
+    <i class="fa-brands fa-pinterest fs-5"></i>
+</div>
+</div>
+</div>
+</div>
+
+ <div class="para">  <p class="text-white py-5 text-center">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p></div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>

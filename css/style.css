@@ -1,0 +1,234 @@
+.alll{
+    background-color: rgb(30, 32, 43);
+    height: 130PX;
+}
+
+.navbar-collapse a:hover{
+    border: solid 2px rgb(0, 154, 216);
+    width: 100%;
+    border-radius: 20px;
+    color: rgb(0, 154, 216);
+
+}
+
+.navbar-collapse a{
+    color: white ;
+
+   
+}
+#home {
+    border: solid 2px rgb(0, 154, 216);
+    width: 100%;
+    border-radius: 20px;
+    color: rgb(0, 154, 216);
+}
+#navv a{
+    font-size: 14px;
+}
+
+
+.span{
+    margin-right: 20px;
+}
+
+.all a h3{
+    text-decoration: none;
+    color: white;
+    font-size:22px;
+}
+
+
+.all a {
+    text-decoration: none;
+    color: white;
+    font-size:28px;
+}
+
+.containe{
+    background-image: url(../images/banner.png);    
+position: absolute;
+width: 100%;
+min-height: 350px;
+background-position: center center ;
+background-size: cover;
+position: relative;
+}
+
+
+
+
+
+
+
+#inputsearch{
+    border-radius: 30px;
+    padding: 10px;
+    background-color:rgb(30, 32, 43);
+    width: 80%;
+margin-top: 40px;
+margin-left: 40px;
+color: white;
+border: none;
+}
+
+#inputsearc{
+    border-radius: 30px;
+    padding: 10px;
+    background-color:rgb(30, 32, 43);
+    width: 80%;
+margin-top: 40px;
+margin-left: 40px;
+color: white;
+border: none;
+}
+
+#btnn{
+    border-radius: 30px;
+    padding: 9px;
+    background-color: rgb(0, 154, 216);
+    color: white;
+    width:95px ;
+  z-index: 9999;
+  border: none;
+}
+
+#btn{
+  margin-right: px;
+margin-top: 40px;
+position: relative;
+    right: 100px;
+}
+#card1{
+    background-color: rgb(50, 53, 68);
+    
+position: relative;
+bottom: 200px;
+  padding: 0 ;
+}
+
+#card2{
+    background-color: rgb(38, 41, 54);
+    
+    position: relative;
+    bottom: 200px;
+      z-index: 888;
+      padding: 0 ;
+}
+
+
+
+#card3{
+    background-color: rgb(50, 53, 68);
+    
+    position: relative;
+bottom: 200px;
+  z-index: 888;
+  padding: 0 ;
+}
+
+
+
+
+footer{
+    background-color: rgb(38, 44, 51);
+}
+
+
+.fluid{
+    background-color: rgb(30, 32, 43);
+    
+position: relative;
+
+
+}
+
+
+
+
+
+
+
+.bord{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 20px;
+  background-color:   rgb(30, 32, 43);
+}
+
+footer i{
+
+    color: rgb(0, 154, 216);
+}
+
+.bord:hover{
+  color:white;
+    background-color: rgb(0, 154, 216);
+}
+
+.bord:hover i{
+    color: white;
+}
+
+.forcast-header{
+    background-color: rgb(34, 37, 48);
+}
+
+
+.temp{
+    font-size: 80px;
+    font-weight:600;
+}
+#nametown{
+    color: rgb(142 ,143, 148);
+    
+}
+
+
+#text{
+    color: rgb(0, 154, 207);
+}
+
+
+#min{
+    color: rgb(142 ,143, 148);
+    
+}
+#day2text{
+    color: rgb(0, 154, 207);
+}
+
+
+#min3{
+    color: rgb(142 ,143, 148);
+    
+}
+#day3text{
+    color: rgb(0, 154, 207);
+}
+
+
+
+
+#bt{
+    border-radius: 30px;
+    
+    background-color: rgb(0, 154, 216);
+    color: white;
+    width:130px ;
+height: 38px;
+  z-index: 9999;
+  border: none;
+  
+ 
+}
+
+
+#btn2{
+    
+    margin-top: 40px;
+    position: relative;
+        right: 22%;
+        
+}
+
+
